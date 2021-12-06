@@ -1,5 +1,5 @@
 import './App.css';
-import Rover from'./Rover';
+import Rover from'./components/Rover';
 
 const size = 10;
 const startPos = [0,0];
