@@ -1,0 +1,15 @@
+.tile {
+  background: #fff;
+  border: 1px solid #000;
+  height: 72px;
+  width: 72px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.controls {
+  margin-left: 10px;
+}

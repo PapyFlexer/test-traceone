@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Rover from'./Rover';
+
+const size = 10;
+const startPos = [0,0];
+const startDir = 0;
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+          Mars Rover for TraceOne
       </header>
+      <Rover dimensions={[size, size]} start={startPos} startDir={startDir}/>
     </div>
   );
 }
